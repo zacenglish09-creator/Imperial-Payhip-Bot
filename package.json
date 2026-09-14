@@ -1,0 +1,19 @@
+{
+  "name": "imperial-payhip-bot",
+  "version": "1.0.0",
+  "description": "Secure Payhip to Discord notification service for Imperial Modifications",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "check": "node --check server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}
